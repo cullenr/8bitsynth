@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
                 byte = phase < PI ? 0x00 : 0xFF; 
                 break;
             case TRI: 
-				byte= phase < PI 
+                byte= phase < PI 
                     ? phase / PI * 255.0
                     : 511 - phase / PI * 255.0;
                 break;
@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
                 exit(EXIT_FAILURE);
         }
 
-		printf("%c", byte);
+        printf("%c", byte);
 
         phase += step;
         while (phase > PI2) 

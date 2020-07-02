@@ -15,7 +15,7 @@
 
 In this article we will explore different methods that can be used to generate
 audio waveforms. We will cover oscillators, additive synthesis and wavetable
-synthesis.  Our goal is to find a suitable tone generator for an MCU running at
+synthesis. Our goal is to find a suitable tone generator for an MCU running at
 a low bitrate and low sampling rate.
 
 ## Waveforms
@@ -66,7 +66,7 @@ it is measured in Radians. It is often denoted by the _phi_ symbol 'ϕ' and in
 our case has a range of 0 to 2π.
 
 If the Note Frequency is a subdivision of 1 second into loops of a
-waveform, we can think of phase as a fraction of a single cycle of our Note
+waveform, we can think of phase as a portion of a single cycle of our Note
 Frequency. Instead of measuring Phase in Hertz like Note Frequency we measure
 Phase in Radians, in this case the range is 0 to 2π.
 ]
@@ -80,7 +80,6 @@ distributed evenly.
 
 > \* In most practical applications a buffer is implemented and the loop does not
 >   run in real time.
-
 
 As our starting point we will write an oscillator that generates a sinusoidal
 waveform at a constant frequency. Our program will output raw 8bit PCM which we
@@ -165,10 +164,6 @@ of any given frequency along the x axis.
     gnuplot -e 'set terminal png size 800,600; plot "-" with impulses' |\
     display
 
-If we wish to expand this code to produce the remaining three waveforms we can
-edit the `for` loop to contain the following snippets.
-
-
 ## Harmonics
 
 The _sin_ program above attempts to produce a pure sin wave. Sin waves are
@@ -178,7 +173,7 @@ extra energy at multiple frequencies, this gives them a distinct timbre.
 
 Square, Triangle and Sawtooth waveforms all contain harmonics/ partials above
 the root frequency. In these particular waveforms the distributions of these
-partials are neatly distributed, more on this later. 
+partials are neatly spaced, more on this later. 
 
 For now lets use the amplitude over time data in _fig 1_ as a guide for adding
 these new wave shapes to our tone generator. The following extract from
@@ -218,6 +213,63 @@ waves shapes.
 ...
 ```
 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <!-- saw(t) = (2A)/pi sum_(k=1)^\infty (-1)^k((2pikft)/k) -->
+  <mstyle displaystyle="true">
+    <mi>s</mi>
+    <mi>a</mi>
+    <mi>w</mi>
+    <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mn>2</mn>
+        <mi>A</mi>
+      </mrow>
+      <mi>&#x3C0;</mi>
+    </mfrac>
+    <mrow>
+      <munderover>
+        <mo>&#x2211;</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mo>&#x221E;</mo>
+      </munderover>
+    </mrow>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <mo>-</mo>
+        <mn>1</mn>
+        <mo>)</mo>
+      </mrow>
+      <mi>k</mi>
+    </msup>
+    <mrow>
+      <mo>(</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mi>&#x3C0;</mi>
+          <mi>k</mi>
+          <mi>f</mi>
+          <mi>t</mi>
+        </mrow>
+        <mi>k</mi>
+      </mfrac>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math>
+
+
 <figure>
     <figcaption>110Hz Sin wave</figcaption>
     <img src="./sin110.png">
@@ -239,16 +291,27 @@ waves shapes.
     <audio controls src="./tri110.wav"> </audio> 
 </figure>
 
+TODO : draw the harmonics on a graph from the stderr of the additive-osc
+TODO : demonstrate the nyquist foldover using the additive-osc
+TODO : generate audio clips of harmonics being added together.
+
 NOTES:
 
 DSP:
 https://en.wikibooks.org/wiki/Sound_Synthesis_Theory/Oscillators_and_Wavetables
 http://www.dspguide.com/ch3/2.htm
 http://metafunction.co.uk/all-about-digital-oscillators-part-2-blits-bleps/
+// fast additive saw
+https://www.desmos.com/calculator/wleksawmbq
+// sing cosine approx
+http://cabezal.com/misc/minsky-circles.html
 
+//miller pucket transition splice osillators
+https://www.youtube.com/watch?v=dQ8I9F-uj3w
 
 BLIT
 https://ccrma.stanford.edu/~stilti/papers/blit.pdf
+https://www.music.mcgill.ca/~gary/307/week5/bandlimited.html
 
 MINBLEP
 http://www.cs.cmu.edu/~eli/papers/icmc01-hardsync.pdf
@@ -256,3 +319,4 @@ https://www.experimentalscene.com/articles/minbleps.php
 
 POLYBLEP
 http://www.martin-finke.de/blog/articles/audio-plugins-018-polyblep-oscillator/
+
