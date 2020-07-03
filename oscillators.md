@@ -21,7 +21,7 @@ a low bitrate and low sampling rate.
 ## Waveforms
 
 In audio synthesis there are four common waveforms that are used as the basis of
-most sounds; sin, square, triangle and sawtooth.
+most sounds; sine, square, triangle and sawtooth.
 
 <figure>
     <img src="./waveforms.svg">
@@ -166,7 +166,7 @@ of any given frequency along the x axis.
 
 ## Harmonics
 
-The _sin_ program above attempts to produce a pure sin wave. Sin waves are
+The _sin_ program above attempts to produce a pure sine wave. Sin waves are
 special in that they have energy at one particular frequency, this is shown in
 _fig 3_ where we can see a distinct peak at 440Hz. More complex sounds contain
 extra energy at multiple frequencies, this gives them a distinct timbre.
