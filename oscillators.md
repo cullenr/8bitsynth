@@ -34,23 +34,7 @@ it takes to complete one cycle of a waveform; _2π_.
 
 ## Naive Oscillator
 
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-  <!-- delta phi = (2 pi f)/F -->
-  <mstyle displaystyle="true">
-    <mi>&#x3B4;</mi>
-    <mi>&#x3D5;</mi>
-    <mo>=</mo>
-    <mfrac>
-      <mrow>
-        <mn>2</mn>
-        <mi>&#x3C0;</mi>
-        <mi>f</mi>
-      </mrow>
-      <mi>F</mi>
-    </mfrac>
-  </mstyle>
-</math>
-
+$ \delta\phi = (2 pi f)/F $
 
 There are three important properties to consider when writing an oscillator;
 Note-Frequency, Sample-Rate and Phase. 
@@ -213,62 +197,7 @@ waves shapes.
 ...
 ```
 
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-  <!-- saw(t) = (2A)/pi sum_(k=1)^\infty (-1)^k((2pikft)/k) -->
-  <mstyle displaystyle="true">
-    <mi>s</mi>
-    <mi>a</mi>
-    <mi>w</mi>
-    <mrow>
-      <mo>(</mo>
-      <mi>t</mi>
-      <mo>)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mfrac>
-      <mrow>
-        <mn>2</mn>
-        <mi>A</mi>
-      </mrow>
-      <mi>&#x3C0;</mi>
-    </mfrac>
-    <mrow>
-      <munderover>
-        <mo>&#x2211;</mo>
-        <mrow>
-          <mi>k</mi>
-          <mo>=</mo>
-          <mn>1</mn>
-        </mrow>
-        <mo>&#x221E;</mo>
-      </munderover>
-    </mrow>
-    <msup>
-      <mrow>
-        <mo>(</mo>
-        <mo>-</mo>
-        <mn>1</mn>
-        <mo>)</mo>
-      </mrow>
-      <mi>k</mi>
-    </msup>
-    <mrow>
-      <mo>(</mo>
-      <mfrac>
-        <mrow>
-          <mn>2</mn>
-          <mi>&#x3C0;</mi>
-          <mi>k</mi>
-          <mi>f</mi>
-          <mi>t</mi>
-        </mrow>
-        <mi>k</mi>
-      </mfrac>
-      <mo>)</mo>
-    </mrow>
-  </mstyle>
-</math>
-
+$ saw(t) = (2A)/pi \sum_{k=1}^\infty (-1)^k \left(\frac{2 \pi k f t}{k}\right) $
 
 <figure>
     <figcaption>110Hz Sin wave</figcaption>
