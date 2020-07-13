@@ -4,4 +4,5 @@
 all: index.html oscillators.html
 
 %.html: %.md
-	pandoc -s -c pandoc.css $< > $@
+	pandoc --filter pandoc-plot --filter pandoc-crossref -s -c pandoc.css $< > $@
+

@@ -23,13 +23,32 @@ a low bitrate and low sampling rate.
 In audio synthesis there are four common waveforms that are used as the basis of
 most sounds; sine, square, triangle and sawtooth.
 
-<figure>
-    <img src="./waveforms.svg">
-    <figcaption>fig 1</figcaption>
-</figure>
+```{#fig:waveforms .gnuplot format=SVG source=true}
+set terminal svg size 800,600 dynamic lw 2 font "sans,16"
 
-_fig 1_ shows the amplitude response of each oscillator over the relative time
-it takes to complete one cycle of a waveform; _2π_.
+set xlabel 'phase ϕ'
+set ylabel 'amplitude A'
+
+set xrange [0:2*pi]
+set yrange [-1.5:1.5]
+
+set xtics (0, 'π' pi, '2π' 2*pi)
+set ytics 1
+
+_sin(x) = sin(x)
+_saw(x) = 1 - x / pi
+_sqr(x) = x >= pi ? 1 : -1
+_tri(x) = x <= pi ? -1 + x * 2 / pi : 3 - x * 2 / pi
+
+# Plot
+plot _sin(x) title 'sin' with lines, \
+     _saw(x) title 'saw' with lines, \
+     _sqr(x) title 'square' with lines, \
+     _tri(x) title 'triangle' with lines 
+```
+
+@fig:waveforms shows the amplitude response of each oscillator over the relative
+time it takes to complete one cycle of a waveform; _2π_.
 
 
 ## Naive Oscillator
