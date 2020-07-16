@@ -43,7 +43,7 @@ int
 main(int argc, char *argv[])
 {
     uint32_t sample_rate    = 8000; // samples per second
-    double duration         = 1;    // seconds of audio
+    double duration         = 1000; // milliseconds of audio
     double freq             = 440;  // note frequency
     enum wave_type wave     = SIN;  // wave shape
     uint32_t opt_partials   = 0;    // user override for partial count
@@ -60,7 +60,7 @@ main(int argc, char *argv[])
             case 't': wave = TRI; break;
             case 'w': wave = SAW; break;
             default:
-                fprintf(stderr, "Usage: %s [-d duration seconds] " 
+                fprintf(stderr, "Usage: %s [-d duration millisseconds] " 
                         "[-f note hz] [-r sample rate hz] [-p partials n] "
                         "[-s|-q|-t|-w]\n", argv[0]);
                 exit(EXIT_FAILURE);
@@ -68,7 +68,7 @@ main(int argc, char *argv[])
     }
 
     const uint32_t nyquist  = sample_rate / 2;
-    const uint32_t samples  = duration * sample_rate;
+    const uint32_t samples  = duration * 0.001 * sample_rate;
     float *const buf        = calloc(samples, sizeof(float));
 
     switch(wave) {
@@ -80,10 +80,9 @@ main(int argc, char *argv[])
                 // unless overriden, square waves contain only odd harmonics 
                 const uint32_t partials = opt_partials > 0 
                     ? opt_partials 
-                    : nyquist / freq / 2;
+                    : (uint32_t)ceil(nyquist / (int)freq / 2);
 
-                // note we drop the highest partial
-                for (int k = 1; k < partials; k++) {
+                for (int k = 1; k <= partials; k++) {
                     // calculate the mode
                     const uint32_t n = 2 * k - 1;
                     const float amp = 1.0 / n;
@@ -97,10 +96,9 @@ main(int argc, char *argv[])
                 // unless overriden, triangle waves contain only odd harmonics 
                 const uint32_t partials = opt_partials > 0 
                     ? opt_partials 
-                    : nyquist / freq / 2;
+                    : (uint32_t)ceil(nyquist / (int)freq / 2);
 
-                // note we drop the highest partial
-                for (int k = 1; k < partials; k++) {
+                for (int k = 1; k <= partials; k++) {
                     // calculate the mode
                     const uint32_t n = 2 * k - 1;
                     // we must invert the phase of every other harmonic
@@ -120,8 +118,7 @@ main(int argc, char *argv[])
                     ? opt_partials 
                     : nyquist / freq;
 
-                // note we drop the highest partial
-                for (int k = 1; k < partials; k++) {
+                for (int k = 1; k <= partials; k++) {
                     // phase should invert for each odd harmonic. We can
                     // effectivly do this by inverting the amplitude.
                     // Switching the assignments here changes the sawtooth

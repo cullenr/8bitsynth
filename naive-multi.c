@@ -10,32 +10,34 @@
 enum wave_type {SIN, SQR, SAW, TRI};
 
 int main(int argc, char *argv[]) {
-    const double duration      = 1;    // seconds of audio
     const uint32_t sample_rate = 8000; // samples per second
-    const uint32_t num_samples = duration * sample_rate;
-
-    double freq = 440;
-    enum wave_type wave = SIN;
+    double duration            = 1000; // milliseconds of audio
+    double freq                = 440;
+    enum wave_type wave        = SIN;
     int opt;
 
-    while ((opt = getopt(argc, argv, "f:sqtw")) != -1) {
+    while ((opt = getopt(argc, argv, "d:f:sqtw")) != -1) {
         switch (opt) {
-            case 'f': freq = strtod(optarg, NULL); break;
-            case 's': wave = SIN; break;
-            case 'q': wave = SQR; break;
-            case 't': wave = TRI; break;
-            case 'w': wave = SAW; break;
+            case 'd': duration = strtod(optarg, NULL); break;
+            case 'f': freq     = strtod(optarg, NULL); break;
+            case 's': wave     = SIN; break;
+            case 'q': wave     = SQR; break;
+            case 't': wave     = TRI; break;
+            case 'w': wave     = SAW; break;
             default:
-                fprintf(stderr, "Usage: %s [-f note hz] [-s][-q][-t][-w]\n",
-                        argv[0]);
+                fprintf(stderr, "Usage: %s [-d duration milliseconds]" 
+                                "[-f note hz] [-s][-q][-t][-w]\n", argv[0]);
                 exit(EXIT_FAILURE);
         }
     }
 
+    // 0.001 converts milliseconds to seconds
+    const uint32_t num_samples = duration * 0.001 * sample_rate;
     const double step = PI2 * freq / sample_rate;
     // this is our phase accumulator
     double phase = 0;
 
+    // start snippet main-loop
     for(int i = 0; i < num_samples; i++) {
         uint8_t byte;
         switch(wave) {
@@ -47,7 +49,7 @@ int main(int argc, char *argv[]) {
                 byte = phase < PI ? 0x00 : 0xFF; 
                 break;
             case TRI: 
-                byte= phase < PI 
+                byte = phase < PI 
                     ? phase / PI * 255.0
                     : 511 - phase / PI * 255.0;
                 break;
@@ -65,5 +67,6 @@ int main(int argc, char *argv[]) {
         while (phase > PI2) 
             phase -= PI2;
     }
+    // end snippet main-loop
     return 0;
 }
