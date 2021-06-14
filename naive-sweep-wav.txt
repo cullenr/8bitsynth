@@ -1,0 +1,466 @@
+file naive-saw-100ms-40hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-45hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-50hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-55hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-60hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-65hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-70hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-75hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-80hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-85hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-90hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-95hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-100hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-105hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-110hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-115hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-120hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-125hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-130hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-135hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-140hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-145hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-150hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-155hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-160hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-165hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-170hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-175hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-180hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-185hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-190hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-195hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-200hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-205hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-210hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-215hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-220hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-225hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-230hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-235hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-240hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-245hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-250hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-255hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-260hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-265hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-270hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-275hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-280hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-285hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-290hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-295hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-300hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-305hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-310hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-315hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-320hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-325hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-330hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-335hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-340hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-345hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-350hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-355hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-360hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-365hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-370hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-375hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-380hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-385hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-390hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-395hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-400hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-405hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-410hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-415hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-420hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-425hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-430hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-435hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-440hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-445hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-450hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-455hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-460hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-465hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-470hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-475hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-480hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-485hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-490hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-495hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-500hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-505hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-510hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-515hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-520hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-525hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-530hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-535hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-540hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-545hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-550hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-555hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-560hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-565hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-570hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-575hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-580hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-585hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-590hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-595hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-600hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-605hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-610hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-615hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-620hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-625hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-630hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-635hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-640hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-645hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-650hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-655hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-660hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-665hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-670hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-675hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-680hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-685hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-690hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-695hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-700hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-705hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-710hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-715hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-720hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-725hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-730hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-735hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-740hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-745hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-750hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-755hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-760hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-765hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-770hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-775hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-780hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-785hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-790hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-795hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-800hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-805hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-810hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-815hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-820hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-825hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-830hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-835hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-840hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-845hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-850hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-855hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-860hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-865hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-870hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-875hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-880hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-885hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-890hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-895hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-900hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-905hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-910hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-915hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-920hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-925hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-930hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-935hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-940hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-945hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-950hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-955hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-960hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-965hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-970hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-975hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-980hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-985hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-990hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-995hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1000hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1005hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1010hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1015hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1020hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1025hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1030hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1035hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1040hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1045hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1050hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1055hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1060hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1065hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1070hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1075hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1080hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1085hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1090hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1095hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1100hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1105hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1110hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1115hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1120hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1125hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1130hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1135hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1140hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1145hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1150hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1155hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1160hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1165hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1170hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1175hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1180hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1185hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1190hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1195hz-8bit.wav
+duration 0.1
+ file naive-saw-100ms-1200hz-8bit.wav
+duration 0.1

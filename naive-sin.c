@@ -20,8 +20,9 @@ int main(void) {
         // sample the sin function, this will return a value in the range of 
         // 1.0 to -1.0
         const double sample = sin(phase);
-        // convert the sample from 1.0 to -1.0 to the range of 256 to 0
-        const uint8_t byte = ((sample + 1.0) / 2.0) * 256.0; 
+        // convert the sample from 1.0 to -1.0 to the range of 255 to 0
+        const uint8_t byte = ((sample + 1.0) / 2.0) * 255.0; 
+        // write the data to stdout
         printf("%c", byte);
 
         // increment the phase for the next iteration
